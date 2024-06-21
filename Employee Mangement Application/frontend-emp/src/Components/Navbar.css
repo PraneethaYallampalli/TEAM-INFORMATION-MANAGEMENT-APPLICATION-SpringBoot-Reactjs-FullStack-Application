@@ -1,0 +1,73 @@
+/* Navbar.css */
+.navbar-container {
+    background-color:#F3D0D7;
+    color:#2c3e50;
+    overflow: hidden;
+    margin-left: 10px;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    padding:10px;
+    
+
+
+  
+    /* display:flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;*/
+  } 
+  /* .navbar-title {
+    /*float: center;
+    color:#2c3e50;
+    text-align: center;
+    /*padding: 14px 14px;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0;
+    font-weight: bold;
+  } */
+    
+  .navbar-link {
+    float: left;
+   display: block;
+    color: #2c3e50;
+    background-color:#FB9AD1;
+    text-align: center;
+    padding: 7px 100px;
+    text-decoration: none;
+    font-size: 12px;
+    /* margin: 0 10px;
+    transition: background-color 0.3s ease; */
+  }
+  
+  .navbar-link:hover {
+    background-color: #D63484;
+    color: black;
+  }
+  .content-container{
+      /* padding-top: 80px; /* Adjusted padding based on navbar height 
+      text-align: center; /* Center align content 
+      background-color: #FCEFF1; /* Light pink background color for content 
+      color:#01204E;
+      padding: 20px;
+      font-family: Garamond, serif;
+      font-size: 25px;
+      /max-width: 800px;
+      line-height: 1.0;
+      margin: 20px auto;  */
+
+     
+        padding-top: 80px; /* Adjusted padding based on navbar height */
+        text-align: center; /* Center align content */
+        color: #01204E; /* Dark blue color for text */
+        padding: 20px;
+        font-family: Garamond, serif;
+        font-size: 25px;
+        overflow-y: auto; /* Enable vertical scrolling */
+        max-height: 65vh; /* Limit the height to the viewport height */
+        margin: 0 auto; /* Center the container horizontally */
+      }
+
+  
